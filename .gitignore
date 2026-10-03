@@ -1,0 +1,21 @@
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+logs/
+
+# secrets — never commit these
+profiles.yml
+.env
+*service-account*.json
+*-key.json
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
